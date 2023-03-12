@@ -14,7 +14,7 @@ int main()
 
     std::cout << "Memory address of p: " << &p << std::endl;                     // 0xc38
     std::cout << "Memory address of pointed value: " << p << std::endl;          // 0x440
-    std::cout << "Value of the memory address p points to: " << *p << std::endl; // 4
+    std::cout << "Value of the memory address p points to: " << *p << std::endl; // 1337
 
     // Heap de-allocation
     delete p;
